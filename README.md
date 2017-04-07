@@ -1,5 +1,5 @@
 # Assignment 02 for MCDA 5570
-## By: Ross MacDonald
+## By: macdre
 ### This README explains how to use the provided Dockerfile and flask python web app
 
 #### Clone the repo: 

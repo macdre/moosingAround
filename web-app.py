@@ -1,3 +1,6 @@
+# Web App for MCDA5570-Assignment02
+# By: macdre
+
 from flask import Flask
 app = Flask(__name__)
 

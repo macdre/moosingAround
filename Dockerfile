@@ -1,3 +1,6 @@
+# Dockerfile for MCDA5570-Assignment02
+# By: macdre
+
 FROM ubuntu:16.04
 
 # Update and install basic tools
@@ -27,5 +30,7 @@ ENV FLASK_APP /root/web-app.py
 ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 EXPOSE 5000
+
+# Run the flask on load
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
 
