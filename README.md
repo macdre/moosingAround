@@ -6,9 +6,9 @@
 First, clone the git repo into an empty local directory
 ```
 cd <myworkspace>
-mkdir docker-web-app
-cd docker-web-app
-git clone git://blalbhalbha/
+mkdir my-docker-web-app
+cd my-docker-web-app
+git clone https://github.com/macdre/mcda5570-assignment02.git
 ```
 
 #### Build Docker Image 
