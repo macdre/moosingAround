@@ -1,0 +1,8 @@
+{
+  "name": "Just Moosing Around",
+  "description": "A Python app based on flask.",
+  "image": "heroku/python",
+  "repository": "https://github.com/heroku/python-getting-started",
+  "keywords": ["python", "flask" ],
+  "addons": [ "heroku-postgresql" ]
+}
