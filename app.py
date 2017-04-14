@@ -1,11 +1,11 @@
 # Web App for MCDA5570-Assignment02
 # By: macdre
 
-from flask import Flask
+from flask import Flask import render_template
 app = Flask(__name__)
 
 @app.route('/')
-	def index(): return render_template('public/index.html')
+	def index(): return render_template('index.html')
 
 @app.route("/hello")
 def hello():
