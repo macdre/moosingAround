@@ -4,9 +4,8 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
-def home():
-    return "Not much going on here, try /hello for more excitement."
+@app.route('/')
+	def index(): return render_template('public/index.html')
 
 @app.route("/hello")
 def hello():
