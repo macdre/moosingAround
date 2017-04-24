@@ -28,7 +28,7 @@ def background_thread():
     zip_ref.close()
     socketio.emit('my_response', {'data': 'Extract complete text8 file', 'count': 'n/a'}, namespace='/test')
     socketio.emit('my_response', {'data': 'Loading word2vec', 'count': 'n/a'}, namespace='/test')
-    sentences = word2vec.Text8Corpus('text8')
+    sentences = word2vec.Text8Corpus('/tmp/text8')
     model = word2vec.Word2Vec(sentences, size=200)
     socketio.emit('my_response', {'data': 'Load Complete', 'count': 'n/a'}, namespace='/test')
 
