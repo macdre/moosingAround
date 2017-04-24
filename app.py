@@ -21,13 +21,17 @@ def background_thread():
     testfile = urllib.URLopener()
     socketio.emit('my_response', {'data': 'Downloading text8 file', 'count': 'n/a'}, namespace='/test')
     testfile.retrieve("http://mattmahoney.net/dc/text8.zip", "/tmp/text8.zip")
-    socketio.emit('my_response', {'data': 'Download complete text8 file', 'count': 'n/a'}, namespace='/test')
-    
+    socketio.emit('my_response', {'data': 'Download complete text8 file', 'count': 'n/a'}, namespace='/test')    
     socketio.emit('my_response', {'data': 'Extracting text8 file', 'count': 'n/a'}, namespace='/test')
     zip_ref = zipfile.ZipFile('/tmp/text8.zip', 'r')
     zip_ref.extractall('/tmp')
     zip_ref.close()
     socketio.emit('my_response', {'data': 'Extract complete text8 file', 'count': 'n/a'}, namespace='/test')
+    socketio.emit('my_response', {'data': 'Loading word2vec', 'count': 'n/a'}, namespace='/test')
+    sentences = word2vec.Text8Corpus('text8')
+    model = word2vec.Word2Vec(sentences, size=200)
+    socketio.emit('my_response', {'data': 'Load Complete', 'count': 'n/a'}, namespace='/test')
+
 
 def background_thread_old():
     """Example of how to send server generated events to clients."""
