@@ -3,15 +3,33 @@
 
 from flask import Flask, render_template, session, request
 from flask_socketio import SocketIO, emit, join_room, leave_room, close_room, rooms, disconnect
+from gensim.models import word2vec
+import logging
+import urllib
+import zipfile
 
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 async_mode = None
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, async_mode=async_mode)
 thread = None
+sentences = None
 
 def background_thread():
+
+    testfile = urllib.URLopener()
+    socketio.emit('my_response', {'data': 'Downloading text8 file', 'count': 'n/a'}, namespace='/test')
+    testfile.retrieve("http://mattmahoney.net/dc/text8.zip", "/tmp/text8.zip")
+    socketio.emit('my_response', {'data': 'Download complete text8 file', 'count': 'n/a'}, namespace='/test')
+    
+    socketio.emit('my_response', {'data': 'Extracting text8 file', 'count': 'n/a'}, namespace='/test')
+    zip_ref = zipfile.ZipFile('/tmp/text8.zip', 'r')
+    zip_ref.extractall('/tmp')
+    zip_ref.close()
+    socketio.emit('my_response', {'data': 'Extract complete text8 file', 'count': 'n/a'}, namespace='/test')
+
+def background_thread_old():
     """Example of how to send server generated events to clients."""
     count = 0
     while True:
@@ -20,7 +38,7 @@ def background_thread():
         socketio.emit('my_response',
                       {'data': 'Server generated event', 'count': count},
                       namespace='/test')
-        
+         
 @app.route('/')
 def index(): 
     return render_template('index.html', async_mode=socketio.async_mode)
