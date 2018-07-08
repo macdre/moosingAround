@@ -27,6 +27,7 @@ RUN yes | pip3 install flask
 RUN yes | pip3 install gevent-websocket
 RUN yes | pip3 install Flask-SocketIO
 RUN yes | pip3 install gunicorn
+RUN yes | pip3 install eventlet
 
 # Install the data analytics python files
 RUN yes | pip3 install Cython
