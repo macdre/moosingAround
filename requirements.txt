@@ -5,7 +5,5 @@ scipy==1.2.1
 gensim==3.7.1
 Six==1.5.0
 smart_open==1.2.1
-axios==0.18.0
-uuid==3.3.2
-vue==2.5.21
-vue-router==3.0.1
+WhiteNoise==4.1.2
+Gunicorn==19.9.0
