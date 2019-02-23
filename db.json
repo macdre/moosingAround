@@ -3,27 +3,27 @@
     {
       "id": 1,
       "content": "hello",
-      "operation": "false"
+      "operation": false
     },
     {
       "id": 2,
       "content": "world",
-      "operation": "false"
+      "operation": false
     },
     {
       "id": 3,
       "content": "how",
-      "operation": "false"
+      "operation": false
     },
     {
       "id": 4,
       "content": "are",
-      "operation": "false"
+      "operation": false
     },
     {
       "id": 5,
       "content": "you",
-      "operation": "false"
+      "operation": false
     }    
   ],
   "profile": {
