@@ -23,14 +23,14 @@ export default {
   },
   methods: {
     deleteWord(id) {
-      axios.delete(`http://my-json-server.typicode.com/macdre/moosingaround/words/${id}`)
+      axios.delete(`https://my-json-server.typicode.com/macdre/moosingaround/words/${id}`)
         .then(res => this.words = this.words.filter(word => word.id !== id))
         .catch(err => console.log(err));
     },
     addWord(newWord) {
       const { content, operation } = newWord;
 
-      axios.post('http://my-json-server.typicode.com/macdre/moosingaround/words', {
+      axios.post('https://my-json-server.typicode.com/macdre/moosingaround/words', {
         content,
         operation
       })
@@ -39,7 +39,7 @@ export default {
     }
   },
   created() {
-    axios.get('http://my-json-server.typicode.com/macdre/moosingaround/words?_limit=5')
+    axios.get('https://my-json-server.typicode.com/macdre/moosingaround/words?_limit=5')
       .then(res => this.words = res.data)
       .catch(err => console.log(err));
   }
