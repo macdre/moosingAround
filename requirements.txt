@@ -7,3 +7,4 @@ Six==1.5.0
 smart_open==1.2.1
 WhiteNoise==4.1.2
 Gunicorn==19.9.0
+gevent-websocket==0.10.1
