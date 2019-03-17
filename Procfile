@@ -1,1 +1,1 @@
-worker: gunicorn --chdir ./src/py -k  geventwebsocket.gunicorn.workers.GeventWebSocketWorker -w 3 app:app --log-file -
+worker: gunicorn --chdir ./src/py -k  geventwebsocket.gunicorn.workers.GeventWebSocketWorker --certfile=./myserver.crt --keyfile=./myserver.key -w 3 app:app --log-file -
