@@ -1,0 +1,60 @@
+swagger: '2.0'
+info:
+  title: Restful Word2Vec Python Implementation
+  version: "0.1"
+  description: Simple example API to compute word2vec arithmetic
+consumes:
+  - application/json
+schemes:
+  - https
+#security:
+  # enable OAuth protection for all REST endpoints
+  # (only active if the TOKENINFO_URL environment variable is set)
+  #- oauth2: [uid]
+paths:
+  /compute:
+    post:
+      operationId: app.get_result
+      summary: Get result of word arithmetic      
+      parameters:       
+        - name: words
+          in: body
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/WordItem'    
+      responses:
+        '200':
+          description: Return result
+          schema:
+            type: string
+            example: Word
+  /test:
+    get:
+      operationId: app.test
+      summary: Test get
+      responses:
+        200:
+          description: Test result
+          schema:
+            type: string
+            example: test
+      parameters:
+        - name: name
+          in: query
+          type: string
+definitions:
+  WordItem:
+    type: object
+    required:
+      - content
+      - operation
+    properties:
+      content:
+        type: string
+        description: Word Item content
+        example: "Hello"
+      operation:
+        type: boolean
+        description: Type of operation
+        example: true

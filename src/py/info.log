@@ -1,0 +1,2787 @@
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.word2vec:collecting all words and their counts
+INFO:gensim.models.word2vec:PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.word2vec:collected 253854 word types from a corpus of 17005207 raw words and 1701 sentences
+INFO:gensim.models.word2vec:Loading a fresh vocabulary
+INFO:gensim.models.word2vec:effective_min_count=5 retains 71290 unique words (28% of original 253854, drops 182564)
+INFO:gensim.models.word2vec:effective_min_count=5 leaves 16718844 word corpus (98% of original 17005207, drops 286363)
+INFO:gensim.models.word2vec:deleting the raw counts dictionary of 253854 items
+INFO:gensim.models.word2vec:sample=0.001 downsamples 38 most-common words
+INFO:gensim.models.word2vec:downsampling leaves estimated 12506280 word corpus (74.8% of prior 16718844)
+INFO:gensim.models.base_any2vec:estimated required memory for 71290 words and 200 dimensions: 149709000 bytes
+INFO:gensim.models.word2vec:resetting layer weights
+INFO:gensim.models.base_any2vec:training model with 3 workers on 71290 vocabulary and 200 features, using sg=0 hs=0 sample=0.001 negative=5 window=5
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 3.53% examples, 439161 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 7.35% examples, 451220 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 11.11% examples, 452883 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 14.87% examples, 457191 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 18.64% examples, 458688 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 22.34% examples, 458413 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 26.04% examples, 459060 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 29.63% examples, 457999 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 33.39% examples, 459717 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 37.10% examples, 460225 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 40.80% examples, 460326 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 44.44% examples, 459528 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 48.21% examples, 460321 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 51.91% examples, 460471 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 55.67% examples, 460839 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 59.38% examples, 460723 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 63.14% examples, 460856 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 66.84% examples, 460903 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 70.61% examples, 461067 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 74.25% examples, 460841 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 78.13% examples, 460813 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 81.89% examples, 461075 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 85.66% examples, 461469 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 89.36% examples, 461451 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 93.12% examples, 461510 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 1 - PROGRESS: at 96.83% examples, 461371 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 2 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 1 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 0 more threads
+INFO:gensim.models.base_any2vec:EPOCH - 1 : training on 17005207 raw words (12508348 effective words) took 27.1s, 461707 effective words/s
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 3.64% examples, 453093 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 7.41% examples, 455622 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 11.17% examples, 458095 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 14.87% examples, 459126 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 18.64% examples, 459953 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 22.46% examples, 461836 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 26.10% examples, 461569 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 29.34% examples, 454375 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 31.75% examples, 437511 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 34.22% examples, 424967 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 37.86% examples, 427254 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 41.62% examples, 430696 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 45.44% examples, 433887 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 49.21% examples, 436632 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 52.91% examples, 437988 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 56.67% examples, 439810 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 60.38% examples, 441015 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 64.08% examples, 442197 words/s, in_qsize 4, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 67.72% examples, 442763 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 71.49% examples, 444069 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 75.31% examples, 445079 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 79.13% examples, 445827 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 82.83% examples, 446270 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 86.60% examples, 447009 words/s, in_qsize 5, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 90.30% examples, 447608 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 94.00% examples, 447863 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 2 - PROGRESS: at 97.77% examples, 448386 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 2 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 1 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 0 more threads
+INFO:gensim.models.base_any2vec:EPOCH - 2 : training on 17005207 raw words (12506772 effective words) took 27.9s, 448996 effective words/s
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 3.47% examples, 426709 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 7.23% examples, 442378 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 10.99% examples, 447003 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 14.81% examples, 453693 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 18.64% examples, 456976 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 22.40% examples, 457705 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 26.10% examples, 458969 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 29.81% examples, 460204 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 33.51% examples, 460137 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 37.27% examples, 461133 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 41.03% examples, 461697 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 44.74% examples, 461736 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 48.50% examples, 462562 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 52.15% examples, 461948 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 55.91% examples, 462586 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 59.67% examples, 462549 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 63.32% examples, 462197 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 67.14% examples, 462729 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 70.90% examples, 463091 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 74.60% examples, 463012 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 78.42% examples, 462633 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 82.13% examples, 462288 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 85.83% examples, 462150 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 89.59% examples, 462298 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 93.42% examples, 462656 words/s, in_qsize 4, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 3 - PROGRESS: at 97.18% examples, 462784 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 2 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 1 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 0 more threads
+INFO:gensim.models.base_any2vec:EPOCH - 3 : training on 17005207 raw words (12505788 effective words) took 27.0s, 463348 effective words/s
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 3.59% examples, 445058 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 7.41% examples, 455814 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 11.17% examples, 456330 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 14.99% examples, 460772 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 18.69% examples, 459706 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 22.52% examples, 462183 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 26.22% examples, 462484 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 29.92% examples, 462968 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 33.69% examples, 463896 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 37.45% examples, 464379 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 41.15% examples, 464296 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 44.97% examples, 464646 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 48.79% examples, 465576 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 52.44% examples, 464522 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 56.14% examples, 464741 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 59.96% examples, 465107 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 63.73% examples, 465194 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 67.55% examples, 465431 words/s, in_qsize 4, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 71.31% examples, 465708 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 75.01% examples, 465455 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 78.78% examples, 464926 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 82.54% examples, 464958 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 86.24% examples, 464878 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 89.95% examples, 464844 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 93.71% examples, 464752 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 4 - PROGRESS: at 97.53% examples, 465056 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 2 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 1 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 0 more threads
+INFO:gensim.models.base_any2vec:EPOCH - 4 : training on 17005207 raw words (12505324 effective words) took 26.9s, 465362 effective words/s
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 3.64% examples, 456030 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 7.41% examples, 458742 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 11.17% examples, 459181 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 14.93% examples, 461111 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 18.69% examples, 462422 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 22.46% examples, 462556 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 26.04% examples, 460989 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 29.81% examples, 461697 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 33.51% examples, 462287 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 37.27% examples, 462561 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 41.09% examples, 463649 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 44.80% examples, 463542 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 48.50% examples, 463456 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 52.26% examples, 463809 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 55.97% examples, 463829 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 59.61% examples, 462938 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 63.37% examples, 463458 words/s, in_qsize 6, out_qsize 1
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 67.14% examples, 463798 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 70.90% examples, 463958 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 74.60% examples, 463946 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 78.48% examples, 463984 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 82.25% examples, 463980 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 85.89% examples, 463575 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 89.65% examples, 463654 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 93.47% examples, 463928 words/s, in_qsize 6, out_qsize 0
+INFO:gensim.models.base_any2vec:EPOCH 5 - PROGRESS: at 97.18% examples, 463751 words/s, in_qsize 5, out_qsize 0
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 2 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 1 more threads
+INFO:gensim.models.base_any2vec:worker thread finished; awaiting finish of 0 more threads
+INFO:gensim.models.base_any2vec:EPOCH - 5 : training on 17005207 raw words (12506239 effective words) took 26.9s, 464295 effective words/s
+INFO:gensim.models.base_any2vec:training on a 85026035 raw words (62532471 effective words) took 135.8s, 460608 effective words/s
+INFO:gensim.models.utils_any2vec:storing 71290x200 projection weights into ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:56] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/css/typography.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/css/screen.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/css/reset.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/jquery.wiggle.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/highlight.9.1.0.pack.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/backbone-min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/lodash.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/jquery.ba-bbq.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/jquery.slideto.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/object-assign-pollyfill.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/handlebars-4.0.5.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/jquery-1.8.0.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:41:59] "GET /ui/lib/swagger-oauth.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:00] "GET /ui/lib/highlight.9.1.0.pack_extended.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:00] "GET /ui/lib/jsoneditor.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:00] "GET /ui/lib/marked.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:00] "GET /ui/images/logo_small.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:00] "GET /ui/css/print.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:00] "GET /ui/swagger-ui.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:01] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:06] "GET /ui/images/throbber.gif HTTP/1.1" 304 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2019 00:42:13] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:14] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:19] "GET /ui/css/typography.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:19] "GET /ui/css/reset.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:19] "GET /ui/lib/object-assign-pollyfill.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:19] "GET /ui/css/screen.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/jquery.slideto.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/jquery.wiggle.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/jquery-1.8.0.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/jquery.ba-bbq.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/lodash.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/backbone-min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/handlebars-4.0.5.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/highlight.9.1.0.pack_extended.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/highlight.9.1.0.pack.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/marked.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:20] "GET /ui/lib/swagger-oauth.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:21] "GET /ui/images/logo_small.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:21] "GET /ui/lib/jsoneditor.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:21] "GET /ui/css/print.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:21] "GET /ui/swagger-ui.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:22] "GET /swagger.json HTTP/1.1" 200 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:33] "GET /ui/images/throbber.gif HTTP/1.1" 304 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 12:36:43] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:04:51] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:04:52] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:05:00] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:07:34] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:07:35] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:07:49] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:15:18] "GET /compute HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:15:32] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:15:32] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:15:41] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:36:38] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:36:38] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:36:47] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:49:34] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:49:35] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 13:49:51] "GET /test HTTP/1.1" 200 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:18:56] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:18:57] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:19:36] "GET /test HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:26:41] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:26:41] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /test [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: test() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:26:58] "GET /test HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:35:26] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:35:27] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:35:38] "GET /test?name=blerg HTTP/1.1" 200 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:51:06] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:51:06] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:51:23] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:53:32] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:53:33] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [10/Mar/2019 14:53:41] "GET /compute HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:49] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:51] "GET /ui/css/typography.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:51] "GET /ui/css/screen.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/object-assign-pollyfill.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/jquery.slideto.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/jquery.wiggle.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/jquery-1.8.0.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/jquery.ba-bbq.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/handlebars-4.0.5.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/lodash.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/backbone-min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/highlight.9.1.0.pack_extended.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/highlight.9.1.0.pack.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/marked.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/swagger-oauth.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/images/logo_small.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/lib/jsoneditor.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/css/reset.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:52] "GET /ui/swagger-ui.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:53] "GET /ui/css/reset.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:53] "GET /ui/css/print.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:53] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:37:57] "GET /ui/images/throbber.gif HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 08:38:09] "GET /test?name=dubabuduad HTTP/1.1" 200 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:50:10] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:50:11] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'object'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:50:25] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'object'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:51:03] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:54:37] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:54:38] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'object'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 12:54:44] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:00:10] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:00:10] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:00:11] "GET /ui/images/favicon-32x32.png HTTP/1.1" 200 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:00:16] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:00:41] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:04:02] "GET /compute HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:04:43] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:04:44] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:04:49] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:04:58] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:05:06] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:05:18] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:05:37] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:07:10] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:07:10] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:07:35] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:14:56] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:14:56] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:15:02] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:15:58] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:15:58] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:16:38] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:20:14] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:20:14] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:20:23] "GET /compute HTTP/1.1" 400 -
+ERROR:connexion.decorators.validation:http://localhost:8080/compute validation error: None is not of type 'array'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:20:40] "GET /compute HTTP/1.1" 400 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:22:01] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:22:02] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:22:13] "GET /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:22:33] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:23:47] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:23:47] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:23:54] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:25:34] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:25:35] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:25:40] "GET /compute HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:36:46] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:36:47] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:36:53] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 84, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:38:00] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:46:23] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:46:23] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:46:24] "GET /swagger.json HTTP/1.1" 200 -
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 89, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:46:33] "GET /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 89, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:47:08] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:()
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 90, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:50:55] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Got this: ()
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 90, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 13:52:11] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Got this: ()
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:00:36] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Got this: ()
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 84, in get_result
+    pprint(vars(words))
+TypeError: vars() argument must have __dict__ attribute
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:03:19] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Got this: ()
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:06:27] "GET /compute HTTP/1.1" 500 -
+INFO:root:Got this: ()
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:07:18] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Got this: ()
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:10:46] "GET /compute HTTP/1.1" 500 -
+INFO:root:Got this: ()
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:11:02] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:11:31] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:11:31] "GET /swagger.json HTTP/1.1" 200 -
+INFO:root:Got this: ()
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 548, in most_similar
+    raise ValueError("cannot compute similarity with no input")
+ValueError: cannot compute similarity with no input
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:11:43] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 83, in get_result
+    words = moose.words
+AttributeError: 'tuple' object has no attribute 'words'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:15:51] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 87, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:17:37] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 87, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:18:10] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:The length of the result is: 
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 87, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:18:50] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:The length of the result is: 0
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 87, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:22:53] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:The length of the result is: 0
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 87, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:23:57] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 83, in get_result
+    response = requests.get()  # api call
+NameError: global name 'requests' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:27:27] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 85, in get_result
+    response = requests.get()  # api call
+TypeError: get() takes at least 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:28:38] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 85, in get_result
+    words = json.loads(moose)
+  File "c:\python27\lib\json\__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "c:\python27\lib\json\decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:30:33] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    for word in words:
+TypeError: 'Response' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 14:58:33] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    words = jsonify(request.args.getlist('moose')).words
+AttributeError: 'Response' object has no attribute 'words'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:00:22] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:04:06] "GET /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:04:28] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:05:51] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:07:34] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:15:59] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:16:00] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [GET]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:16:07] "GET /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:23:53] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:23:53] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 89, in get_result
+    words = moose.words
+AttributeError: 'list' object has no attribute 'words'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:24:03] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 93, in get_result
+    if word.operation:
+AttributeError: 'dict' object has no attribute 'operation'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:25:00] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 90, in get_result
+    logging.info("Got these items in the dict: %s",moose.items())
+AttributeError: 'list' object has no attribute 'items'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:42:30] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 90, in get_result
+    logging.info('Got these items in the dict: %s', moose.words.items())
+AttributeError: 'list' object has no attribute 'words'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:43:41] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    words = moose.words.items()
+AttributeError: 'list' object has no attribute 'words'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:44:57] "POST /compute HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:45:15] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:45:16] "GET /swagger.json HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    words = moose.words.items()
+AttributeError: 'list' object has no attribute 'words'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:45:21] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 93, in get_result
+    if word.operation:
+AttributeError: 'dict' object has no attribute 'operation'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:46:26] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 89, in get_result
+    words = moose.items()
+AttributeError: 'list' object has no attribute 'items'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:47:16] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 89, in get_result
+    words = moose.viewitems()
+AttributeError: 'list' object has no attribute 'viewitems'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:48:22] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:There are things here: 1
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 92, in get_result
+    for word in words:
+NameError: global name 'words' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:50:13] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:root:There are things here: 1
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 93, in get_result
+    if word.operation:
+AttributeError: 'dict' object has no attribute 'operation'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:51:47] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:root:There are things here: 1
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 94, in get_result
+    if words[i].operation:
+TypeError: list indices must be integers, not dict
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:52:57] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:There are things here: 1
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 95, in get_result
+    adds.insert(word['content'])
+TypeError: insert() takes exactly 2 arguments (1 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:55:20] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+TypeError: get_result() takes exactly 1 argument (0 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:56:09] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    adds.insert(word['content'])
+TypeError: insert() takes exactly 2 arguments (1 given)
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:56:43] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 94, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 544, in most_similar
+    mean.append(weight * self.word_vec(word, use_norm=True))
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 462, in word_vec
+    raise KeyError("word '%s' not in vocabulary" % word)
+KeyError: u"word 'Hello' not in vocabulary"
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:58:19] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 93, in get_result
+    subs.append(words['content'])
+TypeError: list indices must be integers, not str
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:59:01] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 15:59:59] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:00:25] "POST /compute HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 94, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 544, in most_similar
+    mean.append(weight * self.word_vec(word, use_norm=True))
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 462, in word_vec
+    raise KeyError("word '%s' not in vocabulary" % word)
+KeyError: u"word 'King' not in vocabulary"
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:00:41] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    adds.append(lower(word['content']))
+NameError: global name 'lower' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:01:38] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    adds.append(lower(word['content']))
+NameError: global name 'lower' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:01:40] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    adds.append(lower(word['content']))
+NameError: global name 'lower' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:01:41] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 91, in get_result
+    adds.append(lower(word['content']))
+NameError: global name 'lower' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:01:53] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:03:00] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:03:06] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:03:16] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:03:30] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:03:39] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:03:46] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:04:00] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:04:09] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:04:29] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:04:42] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:04:51] "POST /compute HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 94, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 544, in most_similar
+    mean.append(weight * self.word_vec(word, use_norm=True))
+  File "c:\python27\lib\site-packages\gensim\models\keyedvectors.py", line 462, in word_vec
+    raise KeyError("word '%s' not in vocabulary" % word)
+KeyError: u"word 'quesadilla' not in vocabulary"
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:05:04] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:08:30] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+AttributeError: 'NoneType' object has no attribute 'most_similar'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:12:32] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+AttributeError: 'NoneType' object has no attribute 'most_similar'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:12:38] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+AttributeError: 'NoneType' object has no attribute 'most_similar'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:12:39] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+AttributeError: 'NoneType' object has no attribute 'most_similar'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:12:40] "POST /compute HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "c:\python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+AttributeError: 'NoneType' object has no attribute 'most_similar'
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:12:53] "POST /compute HTTP/1.1" 500 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:13:49] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:15:02] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:15:42] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:16:27] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 16:47:04] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:10:02] "OPTIONS /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:15:02] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:15:14] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:15:27] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:32:41] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:34:23] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:34:50] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:35:50] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:40:46] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:44:53] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:10] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:13] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:16] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:19] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:36] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:41] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:45:52] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:00] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:05] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:17] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:20] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:23] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:33] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:46:34] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:53:04] "POST /compute HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:53:10] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:53:26] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:53:47] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:54:25] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:54:31] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:54:36] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:54:59] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:06] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:09] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:15] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:30] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:33] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:36] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:55:38] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:56:43] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:57:00] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:57:00] "POST /compute HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 17:57:01] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+ERROR:werkzeug:127.0.0.1 - - [11/Mar/2019 22:21:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03\xf91\xa2\xf7*\xde:\x7f\x88"\xb1}\x88\x91?\xa3{\x02\xf9\x01\xc182\x81Q\x7f\xe8\x18>')
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:21:30] "  ˝˘1¢˜*ﬁ:à"±}àë?£{˘¡82ÅQË>  n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:21:36] "POST /compute/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:29] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:38] "GET /ui/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:40] "GET /ui/css/typography.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:40] "GET /ui/lib/jquery.wiggle.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/css/reset.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/css/screen.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/object-assign-pollyfill.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/jquery.slideto.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/jquery-1.8.0.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/jquery.ba-bbq.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/lodash.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/backbone-min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/handlebars-4.0.5.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/highlight.9.1.0.pack_extended.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/highlight.9.1.0.pack.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/marked.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:41] "GET /ui/lib/swagger-oauth.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:42] "GET /ui/images/logo_small.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:42] "GET /ui/css/print.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:42] "GET /ui/lib/jsoneditor.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:42] "GET /ui/swagger-ui.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:42] "GET /swagger.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:22:49] "GET /ui/images/throbber.gif HTTP/1.1" 304 -
+ERROR:werkzeug:127.0.0.1 - - [11/Mar/2019 22:23:16] code 400, message Bad request syntax ('\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03')
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:23:16] "  ˝" 400 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:23:22] "POST /compute/ HTTP/1.1" 404 -
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:23:38] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:25:13] "POST /compute HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [11/Mar/2019 22:25:23] code 400, message Bad request syntax ("\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03\xe8\xfc:\xa9$\x1e\x84G\xe7\xd3\xd50Pi\xdap\xe4\x1eSp\xd9A\xc2\x06\xb3\x19t\xf2\x16~\xbb\xda\x00\x00n\xc0/\xc0+\xc00\xc0,\x00\x9e\xc0'\x00g\xc0(\x00k\xc0$\xc0\x14\xc0")
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2019 22:25:23] "  ˝Ë¸:©$ÑGÁ”’0Pi⁄p‰SpŸA¬≥tÚ~ª⁄  n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 18:30:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03}~E\xb8\x10l\xf47\xacm')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 18:30:08] "  ˝}~E∏lÙ7¨m	Ìˇ@]íAbiÑ:•NbZﬂ" 400 -
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 18:30:20] "POST /compute HTTP/1.1" 200 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.keyedvectors:precomputing L2-norms of word weight vectors
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 18:37:41] "POST /compute HTTP/1.1" 200 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 18:37:46] code 400, message Bad request syntax ("\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03g\xdf\xb1\xa6\x185H=\xbf\x88sr,\xaa\xfc\x1d9\xc4\xe8\x90\xf4\x9daQI\x00G\\\xa8\x06\x9c\x8c\x00\x00n\xc0/\xc0+\xc00\xc0,\x00\x9e\xc0'\x00g\xc0(\x00k\xc0$\xc0\x14\xc0")
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 18:37:46] "  ˝gﬂ±¶5H=øàsr,™¸9ƒËêÙùaQI G\®úå  n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 18:45:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03\xe7\xd5\xd8\xc8\x1bA]<\x12')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 18:45:37] "  ˝Á’ÿ»A]< r-3ù¢’0Õ3<˘πWû|Êñ∂&ó∂}  n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 18:45:40] code 400, message Bad request syntax ("\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03\xd4\x18~\x04\x8e\xbfj\x9a\xc4\xbb\x01\xae\xceo\xd6\xbe.H\xef\xf9\xf9\xfc\x1b\xdd\xc0\xb0\xedW\xd3\xd9\xb4\xdb\x00\x00n\xc0/\xc0+\xc00\xc0,\x00\x9e\xc0'\x00g\xc0(\x00k\xc0$\xc0\x14\xc0")
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 18:45:40] "  ˝‘~éøjöƒªÆŒo÷æ.HÔ˘˘¸›¿∞ÌW”Ÿ¥€  n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Restarting with stat
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on https://localhost:8080/ (Press CTRL+C to quit)
+ERROR:flask.app:Exception on /compute [POST]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python27\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Python27\lib\site-packages\connexion\decorators\decorator.py", line 48, in wrapper
+    response = function(request)
+  File "C:\Python27\lib\site-packages\connexion\decorators\uri_parsing.py", line 143, in wrapper
+    response = function(request)
+  File "C:\Python27\lib\site-packages\connexion\decorators\validation.py", line 172, in wrapper
+    response = function(request)
+  File "C:\Python27\lib\site-packages\connexion\decorators\validation.py", line 347, in wrapper
+    return function(request)
+  File "C:\Python27\lib\site-packages\connexion\decorators\parameter.py", line 126, in wrapper
+    return function(**kwargs)
+  File "C:\Users\macdre\Documents\Heroku\vueFork\moosingAround\src\py\app.py", line 88, in get_result
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+AttributeError: 'NoneType' object has no attribute 'most_similar'
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 19:03:22] "POST /compute HTTP/1.1" 500 -
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:55:56] "GET / HTTP/1.1" 302 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:55:56] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xc7%]\xcbA%\x11\x972\x83\x0b\xb7\xfe\xb4:\x8eX\xa0\xa9\t\x11n}B3H\xd2c^\x01x\xad Q\\\xbc\xb3\x10\x8a\xda\x8b\xf4\xba\'C\xbe\x9c\xe2\xf8\x18+\xd2|\xff\x8e\x02\x8c\x9b>a\x95\x91E\x0fM\x00"jj\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:55:56] "  ¸«%]ÀA%ó2É∑˛¥:éX†©	n}B3H“c^x≠ Q\º≥ä⁄ãÙ∫'Cæú‚¯+“|ˇéåõ>aïëEM "jj¿+¿/¿,¿0Ã©Ã®¿¿ ú ù / 5 " 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:55:57] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc3\x01\x00\x00\xbf\x03\x03\x1cX4[a\xf7G\xe9\xe2\xfc0|\xc8uE\x98\x1c\xf2\xba\x8e\x9e\x03\x18T\xe1D\xb3\x9d2L\xf5J\x00\x00\x1c::\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:55:57] " √  øX4[a˜GÈ‚¸0|»uEòÚ∫éûT·D≥ù2LıJ  ::¿+¿/¿,¿0Ã©Ã®¿¿ ú ù / 5 " 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:00] code 400, message Bad request version ('$\x7fV\xb7\xf9!\xa7\xd3\x04:&<\xb4Bq\x1c\xd0\xd2\x10\xd2\x0e\xba\xe6Sj\x08\xd8UO\xf6Ju\x00"\xda\xda\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:00] "  ¸˙ö∂wçåEæB„ù·7„3–æπ` ‚≠á(*Î $V∑˘!ß”:&<¥Bq–““∫ÊSjÿUOˆJu "⁄⁄¿+¿/¿,¿0Ã©Ã®¿¿ ú ù / 5 " 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:00] code 400, message Bad request syntax ('\x16\x03\x01\x00\xc3\x01\x00\x00\xbf\x03\x03\xb4\x07\x83\x85\xbe\xd7\x7f+x\xd1,\xf2\x02\xa0')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:00] " √  ø¥ÉÖæ◊+x—,Ú†" 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:08] code 400, message Bad request version ('U<eL\x08\xa5\xe1\xf4\x1e\x88\xbf\x98N\x9a]{\x00"\xda\xda\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:08] "  ¸kºπ¥ƒ‘Zf∫}(dÎ˜ÇVŒïÎ˚a∏V"—\Lv F∆ÙõûGF’__G˚;ΩU<eL•·ÙàøòNö]{ "⁄⁄¿+¿/¿,¿0Ã©Ã®¿¿ ú ù / 5 " 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:08] code 400, message Bad request version ('\xc6\x8fg\x81\x181E\x9b<')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:08] "  ¸ñ'ØeÆÑ2ÍUÙõ"ûœ¢ú∆ègÅ1Eõ< " 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\xc3\x01\x00\x00\xbf\x03\x03O\xa4cH\xcb\xfe')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:09] " √  øO§cHÀ˛ñk˙Ç¯˘=8Ú≈≥;ﬁæBD—„ã^?ˆ}à  ∫∫¿+¿/¿,¿0Ã©Ã®¿¿ ú ù / 5 " 400 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01\xd1\x01\x00\x01\xcd\x03\x03Hr\xcb^\x9f\x01\x1b\xe4\xe3\x08\xad\xc2\xf8\x91z\x93\xfcj\x1f\xae#u\xce6\xb5\x10\x96\xcd\xcaUI\xb7')
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:23] "— ÕHrÀ^ü‰„≠¬¯ëzì¸jÆ#uŒ6µñÕ UI∑ 7Ëò¯+‡oou„1ÇÕDá%ä=[®xR‹ÇŒry∞ n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:31] "POST /compute HTTP/1.1" 302 -
+ERROR:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:32] code 400, message Bad request syntax ("\x16\x03\x01\x01\x01\x01\x00\x00\xfd\x03\x03\xaf\x11\x14\x7f9\xb7D\xa8{\xb7*\xf1\x99\x8e\x9f\x9c)j\xdc\x9d(\x82\xd8`5\xb2\xc7\xa6\xfa\x8e\xeb{\x00\x00n\xc0/\xc0+\xc00\xc0,\x00\x9e\xc0'\x00g\xc0(\x00k\xc0$\xc0\x14\xc0")
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2019 21:56:32] "  ˝Ø9∑D®{∑*Òôéüú)j‹ù(Çÿ`5≤«¶˙éÎ{  n¿/¿+¿0¿, û¿' g¿( k¿$¿¿" 400 -
+INFO:root:Starting thread
+INFO:root:Initializing model
+INFO:root:Preparing corpus
+INFO:root:Configuring model
+INFO:gensim.models.utils_any2vec:loading projection weights from ./text.model.bin
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:gensim.models.utils_any2vec:loaded (71290L, 200L) matrix from ./text.model.bin
+INFO:root:Model initialization complete!

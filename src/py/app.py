@@ -1,28 +1,19 @@
 # Web App implementation of Word2Vec
 # By: macdre
 
-from flask import Flask, render_template, session, request
-from flask_socketio import SocketIO, emit, join_room, leave_room, close_room, rooms, disconnect
+
+from flask import Flask
 from gensim.models import word2vec, KeyedVectors
-from requests import get
 from pathlib import Path
-import eventlet
-import logging
+from threading import Thread
+from requests import get
+#from OpenSSL import SSL
+#from werkzeug.serving import run_simple
+#import ssl
+import connexion
 import zipfile
-import _thread
+import logging
 
-eventlet.monkey_patch()
-
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.WARNING)
-
-app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secret!'
-
-async_mode = 'eventlet'
-socketio = SocketIO(app, async_mode=async_mode)
-thread01 = None
-# thread02 = None
-model = None
 
 def download(url, file_name):
     # open in binary mode
@@ -33,99 +24,98 @@ def download(url, file_name):
         file.write(response.content)
 
 
-def initialize_model():
-    prepare_corpus()
-    configure_model()
+class Word2VecModel(Thread):
+    def prepare_corpus(self):
+        logging.info("Preparing corpus")
+        # Set the corpus path
+        corpus_path = Path("./text8")
+        # Check to see if we have the corpus already downloaded and extracted
+        if not corpus_path.is_file(): 
+            # Corpus is not extracted. Set the corpus zip path
+            corpus_zip_path = Path("./text8.zip")
+            # Check to see if we have the zip file downloaded
+            if not corpus_zip_path.is_file():
+                # Zip file is not downloaded, inform the client, TODO: probably convert this to a log instead, client doesnt care
+                # socketio.emit('my_response', {'data': 'Downloading text8 file', 'count': 'n/a'}, namespace='/test')
+                # Download the corpus zip, TODO: can we use the corpus_zip_path object instead of the text here again?
+                download("http://mattmahoney.net/dc/text8.zip", "./text8.zip")
+                # Download complete, TODO: probably convert to a log instead
+                # socketio.emit('my_response', {'data': 'Download complete text8 file', 'count': 'n/a'}, namespace='/test')
+            # We have the zip but no corpus, extract it. TODO: probably convert this to a log message    
+            # socketio.emit('my_response', {'data': 'Extracting text8 file', 'count': 'n/a'}, namespace='/test')
+            # Extract file
+            zip_ref = zipfile.ZipFile('./text8.zip', 'r')
+            zip_ref.extractall('./')
+            zip_ref.close()
+            # Extract complete, TODO: convert to a log, client doesnt care about this
+            # socketio.emit('my_response', {'data': 'Extract complete text8 file', 'count': 'n/a'}, namespace='/test')        
+        
+
+    def configure_model(self): 
+        logging.info("Configuring model")  
+        global model          
+        # Set the model path
+        model_path = Path("./text.model.bin")
+        # Check to see if we have the model saved
+        if not model_path.is_file():
+            # Model is not saved, lets create it and save it
+            # socketio.emit('my_response', {'data': 'Loading word2vec', 'count': 'n/a'}, namespace='/test')
+            sentences = word2vec.Text8Corpus('./text8')
+            model = word2vec.Word2Vec(sentences, size=200)
+            # socketio.emit('my_response', {'data': 'Load Complete', 'count': 'n/a'}, namespace='/test')
+            # Save the model
+            model.wv.save_word2vec_format('./text.model.bin', binary=True)
+        else:
+            # Model is saved, lets load it instead of creating it from scratch again
+            # TODO: can we replace the text with the path object?
+            model = KeyedVectors.load_word2vec_format('./text.model.bin', binary=True)
+
+    def run(self):
+        logging.info("Initializing model")
+        self.prepare_corpus()
+        self.configure_model()
+        logging.info("Model initialization complete!")
+
+
+def get_result(words):
+    adds = []
+    subs = []
+    for word in words:
+        if word['operation']:
+            adds.append(word['content'].lower())
+        else:
+            subs.append(word['content'].lower())
+    predicted = model.most_similar(positive=adds, negative=subs, topn=1)
+    return(predicted[0][0])
     
-def prepare_corpus():
-    # Set the corpus path
-    corpus_path = Path("/tmp/text8")
-    # Check to see if we have the corpus already downloaded and extracted
-    if not corpus_path.is_file(): 
-        # Corpus is not extracted. Set the corpus zip path
-        corpus_zip_path = Path("/tmp/text8.zip")
-        # Check to see if we have the zip file downloaded
-        if not corpus_zip_path.is_file():
-            # Zip file is not downloaded, inform the client, TODO: probably convert this to a log instead, client doesnt care
-            socketio.emit('my_response', {'data': 'Downloading text8 file', 'count': 'n/a'}, namespace='/test')
-            # Download the corpus zip, TODO: can we use the corpus_zip_path object instead of the text here again?
-            download("http://mattmahoney.net/dc/text8.zip", "/tmp/text8.zip")
-            # Download complete, TODO: probably convert to a log instead
-            socketio.emit('my_response', {'data': 'Download complete text8 file', 'count': 'n/a'}, namespace='/test')
-        # We have the zip but no corpus, extract it. TODO: probably convert this to a log message    
-        socketio.emit('my_response', {'data': 'Extracting text8 file', 'count': 'n/a'}, namespace='/test')
-        # Extract file
-        zip_ref = zipfile.ZipFile('/tmp/text8.zip', 'r')
-        zip_ref.extractall('/tmp')
-        zip_ref.close()
-        # Extract complete, TODO: convert to a log, client doesnt care about this
-        socketio.emit('my_response', {'data': 'Extract complete text8 file', 'count': 'n/a'}, namespace='/test')        
-    
 
-def configure_model(): 
-    global model
-    # Set the model path
-    model_path = Path("/tmp/text.model.bin")
-    # Check to see if we have the model saved
-    if not model_path.is_file():
-        # Model is not saved, lets create it and save it
-        socketio.emit('my_response', {'data': 'Loading word2vec', 'count': 'n/a'}, namespace='/test')
-        sentences = word2vec.Text8Corpus('/tmp/text8')
-        model = word2vec.Word2Vec(sentences, size=200)
-        socketio.emit('my_response', {'data': 'Load Complete', 'count': 'n/a'}, namespace='/test')
-        # Save the model
-        model.wv.save_word2vec_format('/tmp/text.model.bin', binary=True)
-    else:
-        # Model is saved, lets load it instead of creating it from scratch again
-        # TODO: can we replace the text with the path object?
-        model = KeyedVectors.load_word2vec_format('/tmp/text.model.bin', binary=True)
+def test(name):
+    return(name)
 
 
-# def background_thread():
-#     """Example of how to send server generated events to clients."""
-#     count = 0
-#     while True:
-#         socketio.sleep(10)
-#         count += 1
-#         socketio.emit('my_response',
-#                       {'data': 'Server generated event', 'count': count},
-#                       namespace='/test')
+global model
+model = None
+global thread
+thread = Thread()
+app = connexion.FlaskApp(__name__, specification_dir='swagger/')
+app.add_api('swagger.yaml')
+application = app.app
+logging.basicConfig(filename='info.log',level=logging.INFO)
+#context = SSL.Context(SSL.SSLv23_METHOD)
+#context.use_privatekey_file('./myserver.key')
+#context.use_certificate_file('./myserver.crt')
+context = ('./myserver.crt', './myserver.key')
 
 
-@app.route('/')
-def index(): 
-    return render_template('index.html', async_mode=socketio.async_mode)
+if not thread.isAlive():
+    logging.info("Starting thread")
+    thread = Word2VecModel()
+    thread.start()
 
 
-@socketio.on('compute_event', namespace='/test')
-def compute_message(message):
-    session['receive_count'] = session.get('receive_count', 0) + 1
-    predicted = model.most_similar(positive=message['add_data'], negative=message['sub_data'], topn=1)
-    emit('compute_response',
-         {'data': predicted[0][0], 'count': session['receive_count']})
-
-
-@socketio.on('my_ping', namespace='/test')
-def ping_pong():
-    emit('my_pong')
-
-
-@socketio.on('connect', namespace='/test')
-def test_connect():
-    global thread01
-#    global thread02            
-#    if thread02 is None:
-#        thread02 = socketio.start_background_task(target=background_thread)
-#    emit('my_response', {'data': 'Connected', 'count': 0})
-    if thread01 is None:
-        thread01 = 1
-        eventlet.spawn(initialize_model)
-
-
-@socketio.on('disconnect', namespace='/test')
-def test_disconnect():
-    print('Client disconnected', request.sid)
-    
-    
 if __name__ == "__main__":
-    socketio.run(app)
+    #context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
+    #context.load_cert_chain(certfile="./myserver.crt", keyfile="./myserver.key")
+    context = ('./myserver.crt', './myserver.key')
+    app.run(threading=True, ssl_context=context)
+    #run_simple('localhost', 8080, app, use_reloader=True, threaded=True, ssl_context=context)
