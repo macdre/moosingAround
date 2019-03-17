@@ -1,10 +1,8 @@
-Cython==0.28.5
 Flask==1.0.2
-numpy==1.16.1
+numpy==1.16.2
 scipy==1.2.1
 gensim==3.7.1
-Six==1.5.0
-smart_open==1.2.1
-WhiteNoise==4.1.2
+Six==1.12.0
+smart_open==1.8.1
 Gunicorn==19.9.0
 gevent-websocket==0.10.1
