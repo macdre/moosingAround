@@ -1,2 +1,2 @@
-worker: gunicorn --chdir ./src/py -k  geventwebsocket.gunicorn.workers.GeventWebSocketWorker --certfile=./myserver.crt --keyfile=./myserver.key -w 3 app:app -b 0.0.0.0:8080 --log-file -
+worker: gunicorn --chdir ./src/py --certfile=./myserver.crt --keyfile=./myserver.key app:app -b 0.0.0.0:8080 --log-file -
 web: node server.js
