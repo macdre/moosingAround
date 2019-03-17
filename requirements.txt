@@ -7,3 +7,4 @@ smart-open==1.8.0
 Gunicorn==19.9.0
 gevent-websocket==0.10.1
 pathlib==1.0.1
+connexion==2.2.0
