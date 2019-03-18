@@ -61,6 +61,7 @@ class Word2VecModel(Thread):
             # TODO: can we replace the text with the path object?
             model = KeyedVectors.load_word2vec_format('./text.model.bin', binary=True)
 
+
     def run(self):
         logging.info("Initializing model")
         self.prepare_corpus()
@@ -73,8 +74,10 @@ def get_result(words):
     subs = []
     for word in words:
         if word['operation']:
+            logging.info("Word: %s, Operation: Addition", word['content'].lower())
             adds.append(word['content'].lower())
         else:
+            logging.info("Word: %s, Operation: Subtraction", word['content'].lower())
             subs.append(word['content'].lower())
     predicted = model.most_similar(positive=adds, negative=subs, topn=1)
     return(predicted[0][0])
