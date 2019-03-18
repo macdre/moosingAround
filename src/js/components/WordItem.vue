@@ -3,7 +3,7 @@
     <p>
       <!--<input type="checkbox" v-on:change="toggleOperation">-->
       <a v-on:click="toggleOperation"> 
-        <i :class="[this.word.operation ? 'faPlusSquare' : 'faMinusSquare', 'fa']" v-on:change="toggleOperation"/>
+        <i :icon="[this.word.operation ? 'minus-square' : 'plus-square']" v-on:change="toggleOperation"/>
         <li>
           <font-awesome-icon icon="coffee" size="4x" />
         </li>  
