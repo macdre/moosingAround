@@ -1,6 +1,6 @@
 <template>
   <div class="word-item">
-    <p>
+    <p class="word-text">
       <a v-on:click="toggleOperation"> 
         <font-awesome-icon :icon="this.word.operation ? 'minus-square' : 'plus-square'" size="2x" class="word-operation"/>
       </a>   
@@ -26,7 +26,10 @@ export default {
   .word-item {
     background: #f4f4f4;
     padding: 10px;
-    border-bottom: 1px #ccc dotted;
+    border-bottom: 1px #ccc dotted;    
+  }
+
+  .word-text {
     vertical-align: middle;
   }
 
