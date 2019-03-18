@@ -4,9 +4,7 @@
       <!--<input type="checkbox" v-on:change="toggleOperation">-->
       <a v-on:click="toggleOperation"> 
         <!--<i :icon="[this.word.operation ? 'minus-square' : 'plus-square']" v-on:change="toggleOperation"/>-->
-        <li>
-          <font-awesome-icon :icon="[this.word.operation ? 'minus-square' : 'plus-square']" size="4x" />
-        </li>  
+        <font-awesome-icon :icon="this.word.operation ? 'minus-square' : 'plus-square'" size="2x" />
       </a>    
       {{word.content}}
       <button @click="$emit('del-word', word.id)" class="del">x</button>
