@@ -5,7 +5,7 @@
       <a v-on:click="toggleOperation"> 
         <i :icon="[this.word.operation ? 'minus-square' : 'plus-square']" v-on:change="toggleOperation"/>
         <li>
-          <font-awesome-icon icon="coffee" size="4x" />
+          <font-awesome-icon icon="minus-square" size="4x" />
         </li>  
       </a>    
       {{word.content}}
