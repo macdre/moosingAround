@@ -73,7 +73,7 @@ def get_result(words):
     adds = []
     subs = []
     for word in words:
-        if word['operation']:
+        if word['operation'] == True:
             logging.info("Word: %s, Operation: Addition", word['content'].lower())
             adds.append(word['content'].lower())
         else:
