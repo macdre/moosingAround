@@ -24,7 +24,7 @@ export default {
       const newWord = {
         id: uuid(),
         content: this.content,
-        operation: false
+        operation: true
       }
       // Send up to parent
       this.$emit('add-word', newWord);
