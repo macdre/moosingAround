@@ -3,7 +3,7 @@
     <p>
       <!--<input type="checkbox" v-on:change="toggleOperation">-->
       <a v-on:click="toggleOperation"> 
-        <i :class="[this.word.operation ? 'fa-chevron-up' : 'fa-chevron-down', 'fa']" v-on:change="toggleOperation"/>
+        <i :class="[this.word.operation ? 'faPlusSquare' : 'faMinusSquare', 'fa']" v-on:change="toggleOperation"/>
       </a>      
       {{word.content}}
       <button @click="$emit('del-word', word.id)" class="del">x</button>
