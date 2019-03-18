@@ -2,12 +2,13 @@ import Vue from 'vue'
 import App from './js/App.vue'
 import router from './js/router'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPlusSquare, faMinusSquare } from '@fortawesome/free-solid-svg-icons'
+import { faPlusSquare, faMinusSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 
 library.add(
   faPlusSquare, 
-  faMinusSquare
+  faMinusSquare,
+  faCoffee
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

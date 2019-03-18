@@ -4,7 +4,10 @@
       <!--<input type="checkbox" v-on:change="toggleOperation">-->
       <a v-on:click="toggleOperation"> 
         <i :class="[this.word.operation ? 'faPlusSquare' : 'faMinusSquare', 'fa']" v-on:change="toggleOperation"/>
-      </a>      
+      </a>
+      <li>
+        <font-awesome-icon icon="coffee" size="4x" />
+      </li>      
       {{word.content}}
       <button @click="$emit('del-word', word.id)" class="del">x</button>
     </p>
