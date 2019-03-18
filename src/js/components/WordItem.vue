@@ -1,9 +1,9 @@
 <template>
-  <div class="word-item" v-bind:class="{'is-complete':word.operation}">
+  <div class="word-item">
     <p>
       <a v-on:click="toggleOperation"> 
         <font-awesome-icon :icon="this.word.operation ? 'minus-square' : 'plus-square'" size="2x" class="word-operation"/>
-      </a>    
+      </a>   
       {{word.content}}
       <button @click="$emit('del-word', word.id)" class="del">x</button>
     </p>
@@ -27,14 +27,11 @@ export default {
     background: #f4f4f4;
     padding: 10px;
     border-bottom: 1px #ccc dotted;
+    vertical-align: middle;
   }
 
   .word-operation {
     padding: 5px;
-  }
-
-  .is-complete {
-
   }
 
   .del {
