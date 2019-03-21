@@ -27,6 +27,7 @@ export default {
     background: #f4f4f4;
     padding: 10px;
     border-bottom: 1px #ccc dotted;    
+    align-items: center;
   }
 
   .word-text {
