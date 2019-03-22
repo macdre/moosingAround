@@ -34,7 +34,9 @@ for (route of routes) {
     );
 }
 
-pApp.listen(80, () => {
+port = process.env.PORT || 8000;
+
+pApp.listen(port, () => {
     console.log('Proxy listening on port 80');
 });
 
