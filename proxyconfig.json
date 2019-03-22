@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "route": "/app",
+        "address": "http://localhost:5000"
+      },
+      {
+        "route": "/compute",
+        "address": "http://localhost:8080/compute"
+      }
+    ]
+  }
