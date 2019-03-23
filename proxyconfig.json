@@ -1,8 +1,8 @@
 {
     "routes": [
       {
-        "route": "/compute",
-        "address": "http://localhost:9090/compute"
+        "route": "/api/compute",
+        "address": "http://localhost:9090"
       }
     ]
   }
