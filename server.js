@@ -3,7 +3,7 @@ var url = require('url');
 var _ = require('lodash');
 var express = require('express');
 var http = require('http');
-var httpProxyMiddleware = require('http-proxy-middleware');
+var httpProxy = require('http-proxy');
 //var fs = require('fs');
 var serveStatic = require('serve-static');
 var port = process.env.PORT || 5000;
@@ -24,7 +24,7 @@ app.use(serveStatic(__dirname + "/dist"));
 //     );
 // }
 
-var proxy = httpProxyMiddleware.createServer();
+var proxy = httpProxy.createProxyServer();
 app.all('/api/*', (req, res) => {
     const __path = _.drop(req.url.split('/'), 2);
     proxy.proxyRequest(req, res, {
