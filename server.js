@@ -2,37 +2,31 @@
 var url = require('url');
 var _ = require('lodash');
 var express = require('express');
-var http = require('http');
 var httpProxy = require('http-proxy');
-//var fs = require('fs');
 var serveStatic = require('serve-static');
 var port = process.env.PORT || 5000;
 
 app = express();
 app.use(serveStatic(__dirname + "/dist"));
 
-// Config
-// const { routes } = require('./proxyconfig.json');
-// for (route of routes) {
-//     app.use(route.route,
-//         proxy({
-//             target: route.address,
-//             pathRewrite: (path, req) => {
-//                 return path.split('/').slice(2).join('/'); // Could use replace, but take care of the leading '/'
-//             }
-//         })
-//     );
-// }
-
 var proxy = httpProxy.createProxyServer();
 app.all('/api/*', (req, res) => {
     const __path = _.drop(req.url.split('/'), 2);
     proxy.proxyRequest(req, res, {
-      target: url.resolve('http://localhost', __path.join('/')),
-      port: 9090,
+      target: url.resolve('http://localhost:9090', __path.join('/')),
       ignorePath: true
     });
 });
 
-http.createServer(app).listen(port);
+proxy.on('proxyRes', function (proxyRes, req, res) {
+    console.log("Response received");
+});
+  
+proxy.on('error', function (err, req, res) {
+    console.log("Error received");
+    console.log(err);
+});
+
+
+app.listen(port);
 console.log('server started '+ port);
