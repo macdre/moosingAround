@@ -14,7 +14,8 @@ app.all('/api/*', (req, res) => {
     const __path = _.drop(req.url.split('/'), 2);
     proxy.proxyRequest(req, res, {
       target: url.resolve('http://localhost:9090', __path.join('/')),
-      ignorePath: true
+      ignorePath: true,
+      changeOrigin: true
     });
 });
 
