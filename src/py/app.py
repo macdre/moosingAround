@@ -94,7 +94,7 @@ thread = Thread()
 app = connexion.FlaskApp(__name__, specification_dir='swagger/')
 app.add_api('swagger.yaml')
 application = app.app
-logging.basicConfig(filename='info.log',level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 context = ('./myserver.crt', './myserver.key')
 
 
