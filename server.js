@@ -18,6 +18,7 @@ app.use('/api', proxy('localhost:9090', {
           var queryString = parts[1];
           var updatedPath = parts[0].replace(/api/, '/');
           var resolvedPathValue = updatedPath + (queryString ? '?' + queryString : '');
+          console.log("Proxy routing to " + resolvedPathValue);
           resolve(resolvedPathValue);
         }, 200);
       });
