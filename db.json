@@ -3,17 +3,17 @@
     {
       "id": 1,
       "content": "king",
-      "operation": false
+      "operation": true
     },
     {
       "id": 2,
       "content": "woman",
-      "operation": false
+      "operation": true
     },
     {
       "id": 3,
       "content": "man",
-      "operation": true
+      "operation": false
     }    
   ],
   "profile": {

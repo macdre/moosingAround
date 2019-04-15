@@ -2,7 +2,7 @@
   <div class="word-item">
     <p class="word-text">
       <a v-on:click="toggleOperation"> 
-        <font-awesome-icon :icon="this.word.operation ? 'minus-square' : 'plus-square'" size="2x" class="word-operation"/>
+        <font-awesome-icon :icon="this.word.operation ? 'plus-square' : 'minus-square'" size="2x" class="word-operation"/>
       </a>   
       {{word.content}}
       <button @click="$emit('del-word', word.id)" class="del">x</button>
