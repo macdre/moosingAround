@@ -5,25 +5,25 @@ var express = require('express');
 //var httpProxy = require('http-proxy');
 var serveStatic = require('serve-static');
 var port = process.env.PORT || 5000;
-var proxy = require('express-http-proxy');
+//var proxy = require('express-http-proxy');
 
 app = express();
 app.use(serveStatic(__dirname + "/dist"));
 //app.use('/compute', proxy('http://localhost:9090'));
-app.use('/api', proxy('localhost:9090', {
-    proxyReqPathResolver: function(req) {
-      return new Promise(function (resolve, reject) {
-        setTimeout(function () {   // simulate async
-          var parts = req.url.split('?');
-          var queryString = parts[1];
-          var updatedPath = parts[0].replace(/api/, '/');
-          var resolvedPathValue = updatedPath + (queryString ? '?' + queryString : '');
-          console.log("Proxy routing to " + resolvedPathValue);
-          resolve(resolvedPathValue);
-        }, 200);
-      });
-    }
-}));
+// app.use('/api', proxy('localhost:9090', {
+//     proxyReqPathResolver: function(req) {
+//       return new Promise(function (resolve, reject) {
+//         setTimeout(function () {   // simulate async
+//           var parts = req.url.split('?');
+//           var queryString = parts[1];
+//           var updatedPath = parts[0].replace(/api/, '/');
+//           var resolvedPathValue = updatedPath + (queryString ? '?' + queryString : '');
+//           console.log("Proxy routing to " + resolvedPathValue);
+//           resolve(resolvedPathValue);
+//         }, 200);
+//       });
+//     }
+// }));
 
 // var proxy = httpProxy.createProxyServer();
 // app.all('/api/*', (req, res) => {
