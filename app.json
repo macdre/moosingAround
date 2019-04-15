@@ -3,6 +3,5 @@
   "description": "A starter Python Flask app.",
   "image": "heroku/python",
   "repository": "https://github.com/macdre/moosingAround",
-  "keywords": ["python", "flask" ],
-  "addons": [ "heroku-postgresql" ]
+  "keywords": ["python", "flask" ]
 }

@@ -2,28 +2,18 @@
   "words": [
     {
       "id": 1,
-      "content": "hello",
+      "content": "king",
       "operation": false
     },
     {
       "id": 2,
-      "content": "world",
+      "content": "woman",
       "operation": false
     },
     {
       "id": 3,
-      "content": "how",
-      "operation": false
-    },
-    {
-      "id": 4,
-      "content": "are",
-      "operation": false
-    },
-    {
-      "id": 5,
-      "content": "you",
-      "operation": false
+      "content": "man",
+      "operation": true
     }    
   ],
   "profile": {
