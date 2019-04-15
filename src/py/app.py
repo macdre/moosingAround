@@ -93,9 +93,9 @@ model = None
 global thread
 thread = Thread()
 app = connexion.FlaskApp(__name__, specification_dir='swagger/')
-CORS(app)
 app.add_api('swagger.yaml')
 application = app.app
+CORS(application)
 logging.basicConfig(level=logging.INFO)
 context = ('./myserver.crt', './myserver.key')
 
