@@ -7,6 +7,7 @@ from gensim.models import word2vec, KeyedVectors
 from pathlib import Path
 from threading import Thread
 from requests import get
+from flask_cors import CORS
 import connexion
 import zipfile
 import logging
@@ -92,6 +93,7 @@ model = None
 global thread
 thread = Thread()
 app = connexion.FlaskApp(__name__, specification_dir='swagger/')
+CORS(app)
 app.add_api('swagger.yaml')
 application = app.app
 logging.basicConfig(level=logging.INFO)

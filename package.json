@@ -29,7 +29,8 @@
     "uuid": "^3.3.2",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "flask_cors": "^3.0.7"
   },
   "eslintConfig": {
     "root": true,
