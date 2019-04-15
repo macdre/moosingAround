@@ -1,1 +1,1 @@
-web: gunicorn --chdir ./src/py app:app --log-file - --error-logfile -
+web: launch.sh
