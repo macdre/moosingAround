@@ -44,7 +44,7 @@ export default {
       this.words = [...this.words, newWord]
     },
     compute() {
-    axios.post('http://moosingaroundapi.herokuapp.com/compute', this.words)
+    axios.post('https://moosingaroundapi.herokuapp.com/compute', this.words)
       .then(res => this.result = res.data)
       .catch(err => console.log(err));
     }
