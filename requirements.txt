@@ -8,4 +8,4 @@ Gunicorn==19.9.0
 gevent-websocket==0.10.1
 pathlib==1.0.1
 connexion==2.2.0
-flask_cors==3.0.7
+flask_cors==3.0.9
